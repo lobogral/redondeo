@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 setup(
-    name="Redondeo",
+    name="redondeo",
     version="0.1",
-    packages=find_packages('src'),
-    package_dir={'': 'src'}
+    package_dir={'redondeo': 'src/redondeo'},
+    packages=find_namespace_packages('src')
 )
