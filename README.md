@@ -1,7 +1,7 @@
 # Redondeo
 Redondeo mitad arriba en Python.
 
-La forma estándar de redondear números en python es confusa, por eso este paquete ofrece la forma de 
+La forma estándar de redondear números en Python es confusa, por eso este paquete ofrece la forma de 
 redondear más usual, para el último decimal o la última unidad:
 
 1. Menor a 5 redondea a 0
@@ -22,6 +22,16 @@ Si se desea instalar para desarrollo, ejecutar lo siguiente:
     $ git clone https://github.com/lobogral/redondeo.git
     $ cd redondeo
     $ pip install -e .
+    
+## Ejemplo
+
+Solo es necesario ejecutar Python y escribir lo siguiente:
+
+``` python
+>>> from redondeo.redondeo import redondear
+>>> print(redondear(4.5678, 3))
+4.568
+```
 
 ## Referencias
 
