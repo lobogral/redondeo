@@ -4,7 +4,7 @@ Redondeo mitad arriba en Python.
 La forma estándar de redondear números en Python es confusa, por eso este paquete ofrece la forma de 
 redondear más usual, para el último decimal o la última unidad:
 
-1. Menor a 5 redondea a 0
+1. Menor a 5 redondea a 0.
 2. Mayor o igual a 5 redondea a 1.
 
 ## Instalación
