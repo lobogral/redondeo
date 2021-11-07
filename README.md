@@ -1,7 +1,7 @@
 # Redondeo
 Redondeo mitad arriba en Python.
 
-La forma estándar de redondear números en Python es confusa [1], por eso este paquete ofrece la forma de 
+La forma estándar de redondear números en Python es confusa[^1], por eso este paquete ofrece la forma de 
 redondear más usual, para el último decimal o la última unidad:
 
 1. Menor a 5 redondea a 0.
@@ -33,6 +33,4 @@ Solo es necesario ejecutar Python y escribir lo siguiente:
 4.568
 ```
 
-## Referencias
-
-[1] https://stackoverflow.com/questions/33019698/how-to-properly-round-up-half-float-numbers
+[^1]: https://stackoverflow.com/questions/33019698/how-to-properly-round-up-half-float-numbers
